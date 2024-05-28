@@ -28,28 +28,28 @@ public class registrationform {
 		driver.findElement(By.id("check_box_1530100860_Choice1")).click();
 		driver.findElement(By.id("check_box_1530100860_Choice2")).click();
 		driver.findElement(By.id("check_box_1530100860_Choice3")).click();
-		 WebElement radioButton = driver.findElement(By.id("radio_button_id"));
+		 WebElement radioButton = driver.findElement(By.id("radio_1530100861_Femalie"));
 
 	        // Check if the radio button is not selected, then select it
 	        if (!radioButton.isSelected()) {
 	            radioButton.click();
 	        }
-	            WebElement dropdownElement = driver.findElement(By.id("country_1507714747"));
+	            WebElement dropdownElement = driver.findElement(By.xpath("//*[@id=\"country_1507714747\"]"));
 
 	           
 	            Select dropdown = new Select(dropdownElement);
 
 	           
-	            dropdown.selectByVisibleText("United States");
+	            dropdown.selectByVisibleText("United States (US)");
 	            driver.findElement(By.id("textarea_1507714757")).sendKeys(textarea);
 	            driver.findElement(By.id("number_box_1507716030")).sendKeys(number);
 	            WebElement dropdownElement1 = driver.findElement(By.id("select_1507714760"));
 
 		           
-	            Select dropdown1 = new Select(dropdownElement);
-	            dropdown.selectByVisibleText("Option 2");
+	            Select dropdown1 = new Select(dropdownElement1);
+	            dropdown1.selectByVisibleText("Option 2");
 	            driver.findElement(By.id("input_box_1507714764")).sendKeys(inputfield);
-	            driver.findElement(By.id("submit")).click();
+	            driver.findElement(By.cssSelector("#user-registration-form-20 > form > div.ur-button-container > button")).click();
 	            
 
 	            
@@ -69,8 +69,8 @@ public class registrationform {
 
 return new Object[][]
 		{
-	{"aaaaa","bbbb","cccc","ddddd","kkkk","lllll","yyyyy","uuuu","dddd"},
-	{"kukku","nk","kukku@gmail.com","https://www.cardekho.com/newcars","kukku@98","kukku@98","jhidhih","1234567891","sdhjktrdguhrtyujk"}
+	{"aaaaa","bbbb","cccc","ddddd","kkkk","lllll","yyyyy","9865654323","dddd"},
+	{"kukku","nk","kukku@gmail.com","https://www.cardekho.com/newcars","akshaya@123","akshaya@123","jhidhih","1234567891","sdhjktrdguhrtyujk"}
 		};
 	
 		}
