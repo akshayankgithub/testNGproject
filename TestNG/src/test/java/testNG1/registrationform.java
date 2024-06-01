@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.DataProvider;
@@ -14,8 +16,9 @@ public class registrationform {
 	@Test(dataProvider = "registrationform")
 	public void registrationform1(String firstname,String lastname,String useremail,String website,String userpassword,String confirmpassword,String textarea,String number,String inputfield)
 	{
-		System.setProperty("webdriber.chrome.driver","C:\\Users\\hp\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
-				WebDriver driver=new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\hp\\Downloads\\chromedriver.exe");
+		EdgeOptions option=new EdgeOptions();
+				WebDriver driver=new EdgeDriver();
 				driver.manage().window().maximize();
 		driver.get("https://demo.wpeverest.com/user-registration/form-3/");
 		driver.findElement(By.id("first_name")).sendKeys(firstname);

@@ -1,122 +1,158 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-28T11:23:36 IST" name="Default suite" finished-at="2024-05-28T11:23:56 IST" duration-ms="20221">
+  <suite started-at="2024-06-01T11:33:10 IST" name="Default suite" finished-at="2024-06-01T11:33:36 IST" duration-ms="26240">
     <groups>
     </groups>
-    <test started-at="2024-05-28T11:23:36 IST" name="Default test" finished-at="2024-05-28T11:23:56 IST" duration-ms="20221">
-      <class name="testNG1.registrationform">
-        <test-method signature="registrationform1(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNG1.registrationform@791f145a]" started-at="2024-05-28T11:23:36 IST" name="registrationform1" data-provider="registrationform" finished-at="2024-05-28T11:23:48 IST" duration-ms="12494" status="PASS">
+    <test started-at="2024-06-01T11:33:10 IST" name="Default test" finished-at="2024-06-01T11:33:36 IST" duration-ms="26240">
+      <class name="testNG1.column3">
+        <test-method signature="colomn2(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNG1.column3@791f145a]" started-at="2024-06-01T11:33:10 IST" name="colomn2" data-provider="user" finished-at="2024-06-01T11:33:17 IST" duration-ms="7824" status="PASS">
           <params>
             <param index="0">
-              <value>
-                <![CDATA[aaaaa]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[bbbb]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[cccc]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[ddddd]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[kkkk]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[lllll]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[yyyyy]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[9865654323]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[dddd]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registrationform1 -->
-        <test-method signature="registrationform1(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNG1.registrationform@791f145a]" started-at="2024-05-28T11:23:48 IST" name="registrationform1" data-provider="registrationform" finished-at="2024-05-28T11:23:56 IST" duration-ms="7583" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kukku]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[nk]]>
-              </value>
-            </param>
-            <param index="2">
               <value>
                 <![CDATA[kukku@gmail.com]]>
               </value>
             </param>
+            <param index="1">
+              <value>
+                <![CDATA[kukkunk]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kukku@1234]]>
+              </value>
+            </param>
             <param index="3">
               <value>
-                <![CDATA[https://www.cardekho.com/newcars]]>
+                <![CDATA[kukku]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[akshaya@123]]>
+                <![CDATA[nk]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[akshaya@123]]>
+                <![CDATA[kuki]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[jhidhih]]>
+                <![CDATA[https://www.loreal.com/en/]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[1234567891]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[sdhjktrdguhrtyujk]]>
+                <![CDATA[hlo]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registrationform1 -->
-        <test-method is-config="true" signature="registrationform2()[pri:0, instance:testNG1.registrationform@791f145a]" started-at="2024-05-28T11:23:56 IST" name="registrationform2" finished-at="2024-05-28T11:23:56 IST" duration-ms="13" status="FAIL">
+        </test-method> <!-- colomn2 -->
+        <test-method signature="colomn2(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNG1.column3@791f145a]" started-at="2024-06-01T11:33:17 IST" name="colomn2" data-provider="user" finished-at="2024-06-01T11:33:26 IST" duration-ms="8289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mimu@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mimup]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mimu@1234]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mimu]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[p]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[mimii]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.loreal.com/en/]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[hii]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- colomn2 -->
+        <test-method signature="colomn2(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNG1.column3@791f145a]" started-at="2024-06-01T11:33:26 IST" name="colomn2" data-provider="user" finished-at="2024-06-01T11:33:36 IST" duration-ms="9972" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[leela@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[leelavp]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[leela@1234]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[leela]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[vp]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[leelu]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.loreal.com/en/]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[bye]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- colomn2 -->
+        <test-method is-config="true" signature="datadrivrn1()[pri:0, instance:testNG1.column3@791f145a]" started-at="2024-06-01T11:33:36 IST" name="datadrivrn1" finished-at="2024-06-01T11:33:36 IST" duration-ms="8" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
-at testNG1.registrationform.registrationform2(registrationform.java:62)
+at testNG1.column3.datadrivrn1(column3.java:46)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -149,8 +185,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registrationform2 -->
-      </class> <!-- testNG1.registrationform -->
+        </test-method> <!-- datadrivrn1 -->
+      </class> <!-- testNG1.column3 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
